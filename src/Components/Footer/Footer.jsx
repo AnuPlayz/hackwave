@@ -56,6 +56,18 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="absolute bottom-0 left-0 right-0 bg-black/80 h-16 flex items-center justify-center">
+        <div className="text-white text-xs">
+          Made with 💖 by{" "}
+          <a
+            className="text-pink-500"
+            href="https://www.instagram.com/ani__x_/"
+            target="_blank"
+          >
+            Aniruddh
+          </a>
+        </div>
+      </div>
     </div>
   )
 }
