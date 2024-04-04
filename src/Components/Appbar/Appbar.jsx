@@ -61,7 +61,7 @@ function Appbar({ current }) {
               </Link>
             </div>
             <div className="ml-4">
-              <Link to="https://utfs.io/f/37dcb973-f956-436c-8852-5822b487732d-qam66w.pdf" target="_blank">
+              <Link to="https://utfs.io/f/4edb12da-b6b0-412d-9032-53b06a6fa32c-xtbipj.pdf" target="_blank">
                 <NavButton
                   content="Brochure"
                   isActive={current === "cultural"}
