@@ -64,7 +64,15 @@ function Appbar({ current }) {
               <Link to="https://utfs.io/f/4edb12da-b6b0-412d-9032-53b06a6fa32c-xtbipj.pdf" target="_blank">
                 <NavButton
                   content="Brochure"
-                  isActive={current === "cultural"}
+                  isActive={current === "Brochure"}
+                />
+              </Link>
+            </div>
+            <div className="ml-4">
+              <Link to="https://utfs.io/f/61cac491-f6f2-44a9-b7f0-918f6bcf8f8f-2rn.pdf" target="_blank">
+                <NavButton
+                  content="Problem Statement"
+                  isActive={current === "Problem Statement"}
                 />
               </Link>
             </div>
@@ -80,7 +88,7 @@ function Appbar({ current }) {
           </div>
         </div>
         <div
-          className={`nav-mobile-options h-0 overflow-hidden md:hidden ${mobileNavActive && "h-48"
+          className={`nav-mobile-options h-0 overflow-hidden md:hidden ${mobileNavActive && "h-[220px]"
             } ease-in-out duration-300`}
           style={{ transformOrigin: "left top" }}
         >
@@ -108,6 +116,15 @@ function Appbar({ current }) {
                 onClick={() => setMobileNavActive(false)}
                 content="Brochure"
                 isActive={current === "brochure"}
+              />
+            </Link>
+          </div>
+          <div>
+            <Link to="https://utfs.io/f/61cac491-f6f2-44a9-b7f0-918f6bcf8f8f-2rn.pdf" target="_blank">
+              <NavTile
+                onClick={() => setMobileNavActive(false)}
+                content="Problem Statement"
+                isActive={current === "Problem Statement"}
               />
             </Link>
           </div>
